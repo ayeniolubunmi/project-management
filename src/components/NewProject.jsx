@@ -47,9 +47,9 @@ const handleSave=()=>{
         </li>
       </menu>
       <div>
-        <Input type="text" label="Title"/>
-        <Input label="Description" textarea />
-        <Input type="date" label="Due date"/>
+        <Input ref={title} type="text" label="Title"/>
+        <Input ref={description} label="Description" textarea />
+        <Input ref={dueDate} type="date" label="Due date"/>
       </div>
     </div>
     </>
